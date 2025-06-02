@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Велосипеди - Головна</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html" class="active">Головна</a></li>
+            <li><a href="history.html">Історія</a></li>
+            <li><a href="types.html">Типи</a></li>
+            <li><a href="maintenance.html">Обслуговування</a></li>
+            <li><a href="contacts.html">Контакти</a></li>
+        </ul>
+    </nav>
+
+    <section class="welcome">
+        <h1>Ласкаво просимо до світу велосипедів!</h1>
+        <p>Велосипед — це не лише засіб пересування, а й символ свободи та здорового способу життя.</p>
+        <a href="history.html" class="cta">Дізнатися більше про історію</a>
+    </section>
+
+    <section class="social">
+        <p>Слідкуйте за нами:</p>
+        <a href="https://facebook.com"><i class="fab fa-facebook-f"></i> Facebook</a>
+        <a href="https://instagram.com"><i class="fab fa-instagram"></i> Instagram</a>
+        <a href="https://twitter.com"><i class="fab fa-twitter"></i> Twitter</a>
+    </section>
+
+    <footer>
+        <p><img src="logo.png" alt="Logo" class="logo"> © 2025 Велосипедний сайт. Усі права захищено.</p>
+    </footer>
+
+    <div id="scroll-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <script>
+        document.getElementById('scroll-to-top').addEventListener('click', () => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+    </script>
+</body>
+</html>

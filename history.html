@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Історія велосипедів</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Головна</a></li>
+            <li><a href="history.html" class="active">Історія</a></li>
+            <li><a href="types.html">Типи</a></li>
+            <li><a href="maintenance.html">Обслуговування</a></li>
+            <li><a href="contacts.html">Контакти</a></li>
+        </ul>
+    </nav>
+
+    <section class="content">
+        <h1>Історія велосипедів</h1>
+        
+        <div class="item">
+            <img src="pictures/dresina.jpg" alt="Дресина">
+            <div class="text">
+                <h2><span class="highlight">1817</span>: Дресина</h2>
+                <p>У <span class="highlight">1817</span> році німецький барон <span class="highlight">Карл Дрез</span> винайшов <span class="highlight">дресину</span> — перший двоколісний пристрій без педалей. Їздець приводив його в рух, відштовхуючись ногами від землі. Це був перший крок до сучасного велосипеда.</p>
+            </div>
+        </div>
+
+        <div class="item">
+            <div class="text">
+                <h2><span class="highlight">1860-ті</span>: Кісткотряс</h2>
+                <p>У <span class="highlight">1860-х</span> роках з’явилися перші велосипеди з педалями, відомі як <span class="highlight">кісткотряси</span>. Вони мали дерев’яні колеса і жорстку раму, що робило їзду незручною, але це був важливий етап в еволюції.</p>
+            </div>
+            <img src="pictures/kistkotras.webp" alt="Кісткотряс">
+        </div>
+
+        <div class="item">
+            <img src="pictures/bezvelos.jpg" alt="Безпечний велосипед">
+            <div class="text">
+                <h2><span class="highlight">1885</span>: Безпечний велосипед</h2>
+                <p>У <span class="highlight">1885</span> році <span class="highlight">Джон Кемп Старлі</span> створив <span class="highlight">безпечний велосипед</span> із ланцюговим приводом і колесами однакового розміру. У <span class="highlight">1890-х</span> додали гумові шини, що значно покращило комфорт.</p>
+            </div>
+        </div>
+
+        <div class="item">
+            <div class="text">
+                <h2><span class="highlight">1970-ті</span>: Гірські велосипеди</h2>
+                <p>У <span class="highlight">1970-х</span> роках у Каліфорнії з’явилися <span class="highlight">гірські велосипеди</span>. Вони мали міцні рами, широкі шини та амортизатори, що дозволило їздити по пересіченій місцевості.</p>
+            </div>
+            <img src="pictures/hgorn.png" alt="Гірський велосипед">
+        </div>
+
+        <div class="item">
+            <img src="pictures/electrist.webp" alt="Електровелосипед">
+            <div class="text">
+                <h2><span class="highlight">1990-ті</span>: Електровелосипеди</h2>
+                <p>У <span class="highlight">1990-х</span> роках почали з’являтися <span class="highlight">електровелосипеди</span> з електричними двигунами, які полегшували педалювання. Це відкрило нові можливості для довгих поїздок.</p>
+            </div>
+        </div>
+
+        <div class="item">
+            <div class="text">
+                <h2><span class="highlight">21 століття</span>: Сучасні інновації</h2>
+                <p>У <span class="highlight">21 столітті</span> велосипеди отримали <span class="highlight">карбонові рами</span>, розумні системи перемикання передач і вбудовані GPS-модулі, що зробило їх високотехнологічними.</p>
+            </div>
+            <img src="pictures/hshoser.png" alt="Сучасний велосипед">
+        </div>
+    </section>
+
+    <footer>
+        <p><img src="logo.png" alt="Logo" class="logo"> © 2025 Велосипедний сайт. Усі права захищено.</p>
+    </footer>
+
+    <div id="scroll-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <script>
+        document.getElementById('scroll-to-top').addEventListener('click', () => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+    </script>
+</body>
+</html>

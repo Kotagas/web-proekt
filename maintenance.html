@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Технічне обслуговування</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Головна</a></li>
+            <li><a href="history.html">Історія</a></li>
+            <li><a href="types.html">Типи</a></li>
+            <li><a href="maintenance.html" class="active">Обслуговування</a></li>
+            <li><a href="contacts.html">Контакти</a></li>
+        </ul>
+    </nav>
+
+    <section class="content">
+        <h1>Технічне обслуговування</h1>
+        
+        <div class="item">
+            <img src="pictures/nakach.png" alt="Перевірка шин">
+            <div class="text">
+                <h2>Перевірка <span class="highlight">тиску в шинах</span></h2>
+                <p>Регулярно перевіряйте <span class="highlight">тиск у шинах</span> за допомогою манометра. Оптимальний тиск вказано на боковині шини. Правильний тиск забезпечує комфорт і знижує знос.</p>
+            </div>
+        </div>
+
+        <div class="item">
+            <div class="text">
+                <h2>Змащування <span class="highlight">ланцюга</span></h2>
+                <p>Очистіть <span class="highlight">ланцюг</span> від бруду спеціальним засобом і нанесіть мастило для ланцюгів. Регулярне змащування зменшує знос і покращує перемикання передач.</p>
+            </div>
+            <img src="pictures/zmaz.png" alt="Змащування ланцюга">
+        </div>
+
+        <div class="item">
+            <img src="pictures/tormoz.png" alt="Перевірка гальм">
+            <div class="text">
+                <h2>Перевірка <span class="highlight">гальм</span></h2>
+                <p>Переконайтеся, що <span class="highlight">гальмівні колодки</span> не зношені, а троси або гідравліка працюють належним чином. Регулярна перевірка забезпечує безпеку під час їзди.</p>
+            </div>
+        </div>
+
+        <div class="item">
+            <div class="text">
+                <h2>Регулювання <span class="highlight">передач</span></h2>
+                <p>Перевірте налаштування <span class="highlight">перемикачів передач</span>. Якщо передачі перемикаються нечітко, відрегулюйте троси або зверніться до майстра. Це покращує ефективність педалювання.</p>
+            </div>
+            <img src="pictures/peredachi.png" alt="Регулювання передач">
+        </div>
+
+        <div class="item">
+            <img src="pictures/moyka.png" alt="Очищення рами">
+            <div class="text">
+                <h2>Очищення <span class="highlight">рами</span></h2>
+                <p>Регулярно очищуйте <span class="highlight">раму</span> велосипеда від бруду та пилу м’якою ганчіркою та спеціальними засобами. Це запобігає корозії та зберігає вигляд.</p>
+            </div>
+        </div>
+
+        <div class="item">
+            <div class="text">
+                <h2>Заміна <span class="highlight">гальмівних колодок</span></h2>
+                <p>Якщо <span class="highlight">гальмівні колодки</span> зношені, замініть їх на нові. Зношені колодки знижують ефективність гальмування і можуть пошкодити обід або диск.</p>
+            </div>
+            <img src="pictures/zamena.png" alt="Заміна колодок">
+        </div>
+    </section>
+
+    <footer>
+        <p><img src="logo.png" alt="Logo" class="logo"> © 2025 Велосипедний сайт. Усі права захищено.</p>
+    </footer>
+
+    <div id="scroll-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <script>
+        document.getElementById('scroll-to-top').addEventListener('click', () => {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+    </script>
+</body>
+</html>
